@@ -1,0 +1,21 @@
+WHY REACT?
+
+1. In your own words, explain single-page applications and progressive web apps.
+
+SPA’s are one page of HTML loades that updates through AJAX calls, that return data, not markup. 
+Traditional pages reloads the page for every interaction. PWA’s are websites that look and feel like an app, 
+but without downloading a mobile app.
+
+2. Either from your research or by inspecting popular sites you frequent (using the Chrome DevTools), 
+give some real-world examples of applications built with React and Angular.
+
+Instagram, Facebook, Netflix, Dropbox, WhatsApp.
+
+3. Write a summary of the benefits of React vs. Angular. Then ask your mentor about the current state of web development, 
+and ask questions about how they use these two popular technologies in their work.
+
+React is a library while Angular is a whole framework. Making Angular huge compared to React. 
+Angular has a lot of out of the box features while React is minimalistic. With React being smaller it could 
+be easier to learn. Both are used in the job field now, React is also getting more popular in the industry. 
+Talking with my mentor Kevin, it all just come down to what the job is. Depending where I will be working in the future, 
+different things could be necessary or useful for the project. 
