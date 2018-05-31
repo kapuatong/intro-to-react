@@ -1,0 +1,15 @@
+1. In your own words, explain React's Virtual DOM. What gives React its fast performance?
+
+The `render` method generates a representation of an element. When there is a change, 
+the UI is re-rendered in the virtual DOM representation. The difference between the old 
+and new representation is calculated. And changes are made to the actual DOM. 
+Being able to calculate the difference, allows for there to be minimal changes to the DOM. 
+Essentially the virtual DOM makes it so that only what needs to be changed gets changed. 
+
+2. In your own words, describe React's core concept of uni-directional data flow. Draw diagrams to illustrate. 
+Discuss the answer with your mentor in your next session.
+
+React’s one way data flow makes it deterministic, making it a simpler logic to follow in developing. 
+Instead of everything being connected in a 2-way binding like a spider web, this uni-directional 
+flow allows for things to be cleaner. There’s no back and forth between components. It goes 
+from `UI` ==> `EVENT` ==> `COMPONENT` ==> `WATCHER` and right back to `UI`. Makes it a nice cycle.
