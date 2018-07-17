@@ -13,19 +13,25 @@
 
     <script type="text/babel">
        class MyName extends React.Component {
+         constructor(props){
+           super(props);
+           this.state = {
+             age: 25
+           }
+         }
          render() {
            return (
              <div>
-               <h2>My name is Kapua Tong. Nice to meet you.</h2>
+               <h2>My name is {this.props.name}</h2>
+               <h3>I am {this.state.age} years old</h3>
              </div>
            );
          }
        }
- 
+
        ReactDOM.render(
-         <MyName />, document.getElementById('app')
+         <MyName name="Kapua Tong"/>, document.getElementById('app')
        );
     </script>
   </body>
 </html>
-
